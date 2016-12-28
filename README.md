@@ -15,7 +15,7 @@ Each of my implementations of the Interpreter in each language is placed in a se
 var output = boolfuck(code[, input = ""]);
 ```
 
-The interpreter is a function `boolfuck()` which receives up to 2 arguments.  The first (required) argument is the Boolfuck program to be interpreted as a string and the second (optional) argument is the **end-user** input which is also passed in as a string.  The **character** output is returned as a string.
+The interpreter is a function `boolfuck()` which receives up to 2 arguments.  The first (required) argument is the Boolfuck program to be interpreted as a string and the second (optional) argument is the **end-user** input (as defined by the [official website](http://samuelhughes.com/boof/index.html)) which is also passed in as a string.  The **character** output is returned as a string.
 
 ### PHP
 
@@ -29,7 +29,7 @@ The interpreter is a function `boolfuck()` which receives up to 2 arguments.  Th
 string boolfuck(string $code[, string $input = ""])
 ```
 
-The interpreter is a function `boolfuck()` which receives up to 2 arguments.  The first (required) argument is the Boolfuck program to be executed, passed in as a string.  Comments (i.e. non-command characters) are supported and are simply ignored by the interpreter.  The second (optional) argument is the **end-user** program input (as defined by the [official website](http://samuelhughes.com/boof/index.html)) passed in as a string.  If the second argument is not specified/provided, it defaults to an empty string.
+The interpreter is a function `boolfuck()` which receives up to 2 arguments.  The first (required) argument is the Boolfuck program to be executed, passed in as a string.  Comments (i.e. non-command characters) are supported and are simply ignored by the interpreter.  The second (optional) argument is the **end-user** program input (as defined by the [official website](http://samuelhughes.com/boof/index.html)) passed in as a string.  **Note that the input string must NOT contain any character with a character code greater than** `127`**; otherwise, the interpreter is NOT guaranteed to work properly.**  If the second argument is not specified/provided, it defaults to an empty string.
 
 #### The Test Cases
 
