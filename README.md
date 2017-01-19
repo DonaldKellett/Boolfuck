@@ -2,6 +2,8 @@
 
 [![Join the chat at https://gitter.im/Boolfuck/Lobby](https://badges.gitter.im/Boolfuck/Lobby.svg)](https://gitter.im/Boolfuck/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+*Related Kata (Codewars): [Esolang Interpreters #4 - Boolfuck Interpreter](http://www.codewars.com/kata/esolang-interpreters-number-4-boolfuck-interpreter)*
+
 My implementations of the [Boolfuck](http://samuelhughes.com/boof/index.html) Interpreter, tested thoroughly against an extensive set of test cases on [Codewars](http://codewars.com).  FreeBSD 2-Clause Licensed.
 
 ## Interpreters
